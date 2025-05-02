@@ -1,0 +1,14 @@
+E:\پروژه خودم\shopProject\shopProject\bin\Debug\shopProject.exe.config
+E:\پروژه خودم\shopProject\shopProject\bin\Debug\shopProject.exe
+E:\پروژه خودم\shopProject\shopProject\bin\Debug\shopProject.pdb
+E:\پروژه خودم\shopProject\shopProject\obj\Debug\shopProject.csprojAssemblyReference.cache
+E:\پروژه خودم\shopProject\shopProject\obj\Debug\shopProject.frmMain.resources
+E:\پروژه خودم\shopProject\shopProject\obj\Debug\shopProject.frmUsers.resources
+E:\پروژه خودم\shopProject\shopProject\obj\Debug\shopProject.Properties.Resources.resources
+E:\پروژه خودم\shopProject\shopProject\obj\Debug\shopProject.csproj.GenerateResource.cache
+E:\پروژه خودم\shopProject\shopProject\obj\Debug\shopProject.csproj.CoreCompileInputs.cache
+E:\پروژه خودم\shopProject\shopProject\obj\Debug\shopProject.exe
+E:\پروژه خودم\shopProject\shopProject\obj\Debug\shopProject.pdb
+E:\پروژه خودم\shopProject\shopProject\obj\Debug\shopProject.frmCustomer.resources
+E:\پروژه خودم\shopProject\shopProject\obj\Debug\shopProject.frmProduct.resources
+E:\پروژه خودم\shopProject\shopProject\obj\Debug\shopProject.frmSearchCustomer.resources

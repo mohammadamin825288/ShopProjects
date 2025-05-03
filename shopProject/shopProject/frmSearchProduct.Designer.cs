@@ -1,7 +1,7 @@
 ﻿
 namespace shopProject
 {
-    partial class frmSearchCustomer
+    partial class frmSearchProduct
     {
         /// <summary>
         /// Required designer variable.
@@ -29,94 +29,86 @@ namespace shopProject
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.txtName = new System.Windows.Forms.TextBox();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.txtCode = new System.Windows.Forms.TextBox();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.grv1 = new System.Windows.Forms.DataGridView();
+            this.txtProductName = new System.Windows.Forms.TextBox();
+            this.txtProductCode = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grv1)).BeginInit();
             this.SuspendLayout();
             // 
-            // txtName
-            // 
-            this.txtName.Location = new System.Drawing.Point(37, 41);
-            this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(374, 22);
-            this.txtName.TabIndex = 0;
-            this.txtName.TextChanged += new System.EventHandler(this.txtName_TextChanged);
-            // 
-            // contextMenuStrip1
-            // 
-            this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-            // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.txtName);
-            this.groupBox1.Location = new System.Drawing.Point(34, 12);
+            this.groupBox1.Controls.Add(this.txtProductName);
+            this.groupBox1.Location = new System.Drawing.Point(72, 24);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(435, 93);
-            this.groupBox1.TabIndex = 2;
+            this.groupBox1.Size = new System.Drawing.Size(271, 73);
+            this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "جستجوبراساس نام";
+            this.groupBox1.Text = "جستجو براساس نام کالا";
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.txtCode);
-            this.groupBox2.Location = new System.Drawing.Point(525, 12);
+            this.groupBox2.Controls.Add(this.txtProductCode);
+            this.groupBox2.Location = new System.Drawing.Point(402, 24);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(435, 93);
-            this.groupBox2.TabIndex = 2;
+            this.groupBox2.Size = new System.Drawing.Size(271, 73);
+            this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "جستجو بر اساس کد";
-            // 
-            // txtCode
-            // 
-            this.txtCode.Location = new System.Drawing.Point(36, 41);
-            this.txtCode.Name = "txtCode";
-            this.txtCode.Size = new System.Drawing.Size(368, 22);
-            this.txtCode.TabIndex = 0;
-            this.txtCode.TextChanged += new System.EventHandler(this.txtCode_TextChanged);
+            this.groupBox2.Text = "جستوجو بر اساس کد کالا";
             // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.grv1);
-            this.groupBox3.Location = new System.Drawing.Point(26, 121);
+            this.groupBox3.Location = new System.Drawing.Point(38, 126);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(948, 508);
-            this.groupBox3.TabIndex = 3;
+            this.groupBox3.Size = new System.Drawing.Size(678, 447);
+            this.groupBox3.TabIndex = 2;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "فهرست نام مشتری ها ";
+            this.groupBox3.Text = "فهرست کالا ها";
             // 
             // grv1
             // 
             this.grv1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.grv1.Location = new System.Drawing.Point(13, 28);
+            this.grv1.Location = new System.Drawing.Point(17, 18);
             this.grv1.Name = "grv1";
             this.grv1.RowHeadersWidth = 51;
             this.grv1.RowTemplate.Height = 24;
-            this.grv1.Size = new System.Drawing.Size(921, 463);
+            this.grv1.Size = new System.Drawing.Size(641, 419);
             this.grv1.TabIndex = 0;
             // 
-            // frmSearchCustomer
+            // txtProductName
+            // 
+            this.txtProductName.Location = new System.Drawing.Point(27, 29);
+            this.txtProductName.Name = "txtProductName";
+            this.txtProductName.Size = new System.Drawing.Size(196, 22);
+            this.txtProductName.TabIndex = 0;
+            this.txtProductName.TextChanged += new System.EventHandler(this.txtProductName_TextChanged);
+            // 
+            // txtProductCode
+            // 
+            this.txtProductCode.Location = new System.Drawing.Point(35, 29);
+            this.txtProductCode.Name = "txtProductCode";
+            this.txtProductCode.Size = new System.Drawing.Size(204, 22);
+            this.txtProductCode.TabIndex = 0;
+            this.txtProductCode.TextChanged += new System.EventHandler(this.txtProductCode_TextChanged);
+            // 
+            // frmSearchProduct
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(997, 647);
+            this.ClientSize = new System.Drawing.Size(748, 592);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
-            this.Name = "frmSearchCustomer";
+            this.Name = "frmSearchProduct";
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.Text = "فرم جستجو مشتری ";
-            this.Load += new System.EventHandler(this.frmSearchCustomer_Load);
+            this.Text = "فرم جستجو کالا";
+            this.Load += new System.EventHandler(this.frmSearchProduct_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -129,12 +121,11 @@ namespace shopProject
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtName;
-        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox txtCode;
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.DataGridView grv1;
+        private System.Windows.Forms.TextBox txtProductName;
+        private System.Windows.Forms.TextBox txtProductCode;
     }
 }

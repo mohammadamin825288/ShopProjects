@@ -92,8 +92,9 @@ namespace shopProject
             // فاکتورفروشToolStripMenuItem
             // 
             this.فاکتورفروشToolStripMenuItem.Name = "فاکتورفروشToolStripMenuItem";
-            this.فاکتورفروشToolStripMenuItem.Size = new System.Drawing.Size(183, 26);
+            this.فاکتورفروشToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.فاکتورفروشToolStripMenuItem.Text = "فاکتور فروش ";
+            this.فاکتورفروشToolStripMenuItem.Click += new System.EventHandler(this.فاکتورفروشToolStripMenuItem_Click);
             // 
             // ویرایشاطلاعاتToolStripMenuItem
             // 
@@ -119,15 +120,15 @@ namespace shopProject
             // جستجواToolStripMenuItem
             // 
             this.جستجواToolStripMenuItem.Name = "جستجواToolStripMenuItem";
-            this.جستجواToolStripMenuItem.Size = new System.Drawing.Size(240, 26);
+            this.جستجواToolStripMenuItem.Size = new System.Drawing.Size(235, 26);
             this.جستجواToolStripMenuItem.Text = "جسجو اطلاعات مشتری";
             this.جستجواToolStripMenuItem.Click += new System.EventHandler(this.جستجواToolStripMenuItem_Click);
             // 
             // جستجواطلاعاتمشتریToolStripMenuItem
             // 
             this.جستجواطلاعاتمشتریToolStripMenuItem.Name = "جستجواطلاعاتمشتریToolStripMenuItem";
-            this.جستجواطلاعاتمشتریToolStripMenuItem.Size = new System.Drawing.Size(240, 26);
-            this.جستجواطلاعاتمشتریToolStripMenuItem.Text = "جستجو اطلاعات مشتری";
+            this.جستجواطلاعاتمشتریToolStripMenuItem.Size = new System.Drawing.Size(235, 26);
+            this.جستجواطلاعاتمشتریToolStripMenuItem.Text = "جستجو اطلاعات کالا";
             this.جستجواطلاعاتمشتریToolStripMenuItem.Click += new System.EventHandler(this.جستجواطلاعاتمشتریToolStripMenuItem_Click);
             // 
             // frmMain

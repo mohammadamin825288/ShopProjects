@@ -12,3 +12,5 @@ E:\پروژه خودم\shopProject\shopProject\obj\Debug\shopProject.pdb
 E:\پروژه خودم\shopProject\shopProject\obj\Debug\shopProject.frmCustomer.resources
 E:\پروژه خودم\shopProject\shopProject\obj\Debug\shopProject.frmProduct.resources
 E:\پروژه خودم\shopProject\shopProject\obj\Debug\shopProject.frmSearchCustomer.resources
+E:\پروژه خودم\shopProject\shopProject\obj\Debug\shopProject.frmSearchProduct.resources
+E:\پروژه خودم\shopProject\shopProject\obj\Debug\shopProject.frmFactor.resources

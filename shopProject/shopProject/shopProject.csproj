@@ -46,11 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClassShamsi.cs" />
     <Compile Include="frmCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmCustomer.Designer.cs">
       <DependentUpon>frmCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFactor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFactor.Designer.cs">
+      <DependentUpon>frmFactor.cs</DependentUpon>
     </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
@@ -70,6 +77,12 @@
     <Compile Include="frmSearchCustomer.Designer.cs">
       <DependentUpon>frmSearchCustomer.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmSearchProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSearchProduct.Designer.cs">
+      <DependentUpon>frmSearchProduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmUsers.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +94,9 @@
     <EmbeddedResource Include="frmCustomer.resx">
       <DependentUpon>frmCustomer.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmFactor.resx">
+      <DependentUpon>frmFactor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
@@ -89,6 +105,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmSearchCustomer.resx">
       <DependentUpon>frmSearchCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSearchProduct.resx">
+      <DependentUpon>frmSearchProduct.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmUsers.resx">
       <DependentUpon>frmUsers.cs</DependentUpon>

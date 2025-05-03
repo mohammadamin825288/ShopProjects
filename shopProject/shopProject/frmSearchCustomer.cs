@@ -23,23 +23,32 @@ namespace shopProject
 
         private void frmSearchCustomer_Load(object sender, EventArgs e)
         {
-           
-            myconnection.Open();
-            SqlDataAdapter myda = new SqlDataAdapter("SELECT CustomerID AS [کد مشتری], CustomerFirstname AS [نام مشتری], CustomerLastname AS [نام خانوادگی], CustomerCellphone AS تلفن, CustomerAddress AS آدرس FROM   Customer", myconnection);
-            DataTable mydt = new DataTable();
-            myda.Fill(mydt);
-            grv1.DataSource = mydt;
-            grv1.Columns[0].Width = 100;
-            grv1.Columns[1].Width = 150;
-            grv1.Columns[0].Width = 150;
-            grv1.Columns[0].Width = 100;
-            grv1.Columns[0].Width = 200;
 
-            myconnection.Close();
+            try
+            {
+                myconnection.Open();
+                SqlDataAdapter myda = new SqlDataAdapter("SELECT CustomerID AS [کد مشتری], CustomerFirstname AS [نام مشتری], CustomerLastname AS [نام خانوادگی], CustomerCellphone AS تلفن, CustomerAddress AS آدرس FROM   Customer", myconnection);
+                DataTable mydt = new DataTable();
+                myda.Fill(mydt);
+                grv1.DataSource = mydt;
+                grv1.Columns[0].Width = 100;
+                grv1.Columns[1].Width = 150;
+                grv1.Columns[0].Width = 150;
+                grv1.Columns[0].Width = 100;
+                grv1.Columns[0].Width = 200;
 
+                myconnection.Close();
 
-         
         }
+            catch (Exception)
+            {
+
+                //throw;
+            }
+
+
+
+}
 
         private void txtCode_TextChanged(object sender, EventArgs e)
         {
@@ -59,6 +68,25 @@ namespace shopProject
             {
 
               
+            }
+        }
+
+        private void txtName_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                myconnection.Open();
+                SqlDataAdapter myda = new SqlDataAdapter("SELECT CustomerID AS [کد مشتری ], CustomerFirstname AS [نام مشتری ],CustomerLastname AS [نام خانوادگی مشتری ] ,CustomerCellphone AS [تلفن مشتری ], CustomerAddress AS [آدرس ] from Customer Where CustomerLastname like N'" + txtName.Text + "%'order by CustomerLastname asc", myconnection);
+                DataTable mydt = new DataTable();
+                myda.Fill(mydt);
+                grv1.DataSource = mydt;
+                myconnection.Close();
+
+            }
+            catch (Exception)
+            {
+
+                //throw;
             }
         }
     }

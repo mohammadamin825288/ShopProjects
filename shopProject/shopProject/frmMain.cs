@@ -44,6 +44,8 @@ namespace shopProject
 
         private void جستجواطلاعاتمشتریToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            frmSearchProduct mysearchproduct = new frmSearchProduct();
+            mysearchproduct.ShowDialog();
 
         }
 
@@ -51,6 +53,14 @@ namespace shopProject
         {
             frmSearchCustomer myfrmSearchCustomer = new frmSearchCustomer();
             myfrmSearchCustomer.ShowDialog();
+
+        }
+
+        private void فاکتورفروشToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmFactor myfactor = new frmFactor();
+            myfactor.ShowDialog();
+
 
         }
     }
